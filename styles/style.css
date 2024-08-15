@@ -9,7 +9,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(37, 37, 37, 0.906) 100%);
+    background: linear-gradient(360.00deg, rgb(17, 17, 17),rgba(37, 37, 37, 0.906) 100%);
 }
 #main-title{
     color: rgb(230, 83, 60);
@@ -118,4 +118,124 @@ ul > li:first-child{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+
+/* second section */
+main{
+    background-color: rgb(17, 17, 17);
+}
+#second-section{
+    width: 1044px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+#second-section > h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+#second-section > h2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    width: 671px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 58px;
+    padding: 0px 30px;
+}
+#second-section > div{
+    display: flex;
+    width: 1044px;
+    justify-content: space-between;
+    align-items: center;
+}
+#second-section > div > div{
+    text-align: center;
+}
+#second-section > div  img{
+    border-radius: 50%;
+    margin-bottom: 26px;
+}
+#second-section > div h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+#second-section > div h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+/* Third section */
+#third-section{
+    width: 1044px;
+    height: 371px;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#third-section h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 14px;
+}
+#third-section h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+}
+#third-section button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-radius: 48px;
+    background: rgb(230, 83, 60);
+    color: white;
+    border: none;
+}
+#third-section #img{
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+#third-section #img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(2.2) translateX(-70px) translateY(40px);
+}
+/* fourth section */
+#fourth-section{
+    width: 671px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 88px 0px;
+}
+#fourth-section h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+#fourth-section p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
 }
