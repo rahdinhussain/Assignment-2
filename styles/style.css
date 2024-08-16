@@ -239,3 +239,94 @@ main{
     color: rgba(255, 255, 255, 0.5);
     margin-top: 14px;
 }
+/* fifth section */
+#fifth-section{
+    background: rgb(34, 34, 34);
+    height: 487px;
+}
+#inside-fifth{
+    width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#inside-fifth #one{
+    margin-top: 50px;
+}
+#inside-fifth #one table{
+    color: gray;
+    margin-top: 52px;
+    border-collapse: collapse;
+}
+#inside-fifth #one table th{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 18px;
+    text-align: left;
+}
+#inside-fifth #one table td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 18px;
+}
+#inside-fifth #two{
+    width: 577px;
+    margin-top: 50px;
+}
+#inside-fifth #two p{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 14px;
+}
+#inside-fifth #two button{
+    font-size: 18px;
+    padding: 16px 70px;
+    border-radius: 48px;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    margin-top: 14px;
+    border: none;
+}
+#inside-fifth h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+#inside-fifth #two form{
+    margin-top: 34px;
+    margin-bottom: 34px;
+    width: 577px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#inside-fifth #two form div{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+#inside-fifth #two form div input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+#gender{
+    color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    width: 50%;
+}
+#activity{
+    color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    width: 100%;
+}
